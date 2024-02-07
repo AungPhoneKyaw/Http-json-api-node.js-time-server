@@ -4,7 +4,7 @@ function zeroFill(i) {
   return (i < 10 ? '0' : '') + i
 }
 
-function currenttime (time) {
+function currenttime () {
   var d = new Date()
   return {
     year: d.getFullYear(),
